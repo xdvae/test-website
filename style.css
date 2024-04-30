@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    
+}
+
+.name_txt {
+    color: white;
+}
+
+.logo_img {
+    height: 100px;
+    width: 100px;
+    margin-right: 200px;
+
+}
+.header{
+    margin-left: 20px;
+}
+
+.header_btn {
+    height: 2rem;
+    width: 5rem;
+    margin: 0rem;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 5rem;
+    border-color: transparent;
+    padding: 0px;
+    /*border-left: 1px solid white;*/
+    z-index: 2;
+    transition: all 0.2s ease-in;
+    
+}
+.header_btn:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.hire_btn {
+    height: 2rem;
+    width: 5rem;
+    margin: 2rem;
+    color: white;
+    background-color: rgb(0, 49, 211);
+    border-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 260px;
+    z-index: 2;
+
+}
+.hire_btn:hover{
+    background-color: rgb(22, 77, 255) ;
+}
+.intro {
+    color: white;
+    margin-top: 10rem;
+/*    margin-left: 3rem;*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+/*    border: 2px solid white;*/
+        height: 350px;
+}
+.paragraph_1 {
+    height: 120px;
+    width: 400px;
+    margin:0;
+    margin-left: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    /*border: 1px solid white;
+    background-color: rgba(29, 29, 29, 0.5);*/
+    
+    
+    
+
+    
+}
+/*.para_background {
+    border: 1px solid white;
+    background-color: rgb(19, 18, 18);
+    border-right: none;
+    box-sizing: border-box;
+}*/
+.name_txt {
+    background: linear-gradient(90deg, rgb(217, 23, 55) , rgb(156, 12, 156), rgb(36, 36, 172) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    animation: animate 15s linear infinite;
+}
+
+.blur {
+    
+     
+    position: absolute; 
+     z-index: -1;
+    box-shadow: 420px 250px 1000px 50px rgb(60, 60, 255);
+    animation: background_blur 15s linear infinite;
+    transition: all 0.2s ease;
+    pointer-events: none;
+
+}
+.blur_2{
+    width: 1000px;
+    margin-left: 200px;
+    position: absolute; 
+    z-index: -10;
+    box-shadow: 420px 250px 1000px 50px rgb(60, 60, 255);
+    animation: background_blur 15s linear infinite;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+@keyframes background_blur {
+
+0% {
+    box-shadow: 420px 250px 1000px 50px rgb(60, 60, 255);
+}
+25%{
+    box-shadow: 420px 250px 1000px 50px rgb(193, 0, 252);
+}
+50%{
+    box-shadow: 420px 250px 1000px 50px rgb(0, 188, 191);
+}
+75%{
+    box-shadow: 420px 250px 1000px 50px rgb(173, 0, 127);
+}
+100%{
+    box-shadow: 420px 250px 1000px 50px rgb(60, 60, 255)
+}
+
+}
+@keyframes animate {
+    0% {
+        background-position: 0%
+    }
+    50% {
+        background-position: 100% 
+    }
+    100% {
+        background-position: 400% 
+    }
+}
+
+.img_1 {
+    margin-left: 55rem;
+    margin-bottom: 5rem;
+    padding-bottom: 50px;
+    margin-top: -17rem;
+    height: 379px;
+    width: 474px;
+}
+
+
+.section_2_heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.box {
+
+    height: 240px;
+    width: 220px;
+    border: 1px solid transparent;
+    background-color: rgba(83, 83, 83, 0.3);
+    margin: 2rem;
+    padding: 1rem;
+    margin-left: 4rem;
+    display: inline-block;
+    text-align: left;
+    border-radius: 20px;
+    transition: all 0.1s ease;
+
+}
+.box:hover{
+    border: 1px solid white;
+}
+.join_now_btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+
+
+.section_3_heading{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top:  80px;
+    
+}
+
+.heading_3_subtext{
+
+    text-align: center;
+    padding-top: 2rem;
+}
+.blur_3 {
+    
+     
+    position: absolute; 
+     z-index: -1;
+    box-shadow: 420px 250px 1000px 50px rgb(60, 60, 255);
+    animation: background_blur 15s linear infinite;
+    transition: all 0.2s ease;
+    pointer-events: none;
+
+}
+.blur_4{
+    width: 1000px;
+    margin-left: 200px;
+    position: absolute; 
+    z-index: -10;
+    box-shadow: 420px 250px 1000px 50px rgb(60, 60, 255);
+    animation: background_blur 15s linear infinite;
+    transition: all 0.2s ease;
+    pointer-events: none;
+}
+
+.ul{
+/*    display: inline-block;*/
+    height: 400px;
+    width: 220px;
+    border: 1px solid transparent;
+    background-color: rgba(83, 83, 83, 0.3);
+/*    margin: 2rem;
+    padding: 1rem;*/
+    
+/*    display: inline-block;*/
+/*    text-align: left;*/
+    border-radius: 20px;
+  /*  transition: all 0.1s ease;
+    align-items: center;*/
+/*    margin-left: 150px;*/
+float: left;
+margin-left: 155px;
+transition: all 0.1s ease;
+
+}
+
+.ul:hover   {
+
+border: 1px solid white;
+
+}
+#ul_2{
+    margin-top: 20px;
+}
+.buy_now_btn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    align-items: bottom;
+/*    margin-top: 50px;*/
+    border-radius: 4px;
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+}
+.Outbox{
+    height: 600px;
+    width: 100%;
+/*    border: 2px solid white;*/
+}
+.btn_1{
+    margin-top: 94px;
+}
+.btn_2{
+    margin-top: 76px;
+}
+.btn_3{
+     margin-top: -2px;
+}
+
+.company_section{
+    float: left;
+    margin-left: 293px;
+}
+.company_section a{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+.company_section h3{
+    font-weight: 800;
+    color: whitesmoke;
+}
+.Section_4{
+    height: 260px;
+}
+.name_text{
+    margin-left: 3rem;
+}
+
